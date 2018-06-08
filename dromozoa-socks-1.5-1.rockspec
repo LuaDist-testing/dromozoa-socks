@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "dromozoa-socks"
-version = "1.3-1"
+version = "1.5-1"
 -- LuaDist source
 source = {
-  tag = "1.3-1",
+  tag = "1.5-1",
   url = "git://github.com/LuaDist-testing/dromozoa-socks.git"
 }
 -- Original source
 -- source = {
---   url = "https://github.com/dromozoa/dromozoa-socks/archive/v1.3.tar.gz";
---   file = "dromozoa-socks-1.3.tar.gz";
+--   url = "https://github.com/dromozoa/dromozoa-socks/archive/v1.5.tar.gz";
+--   file = "dromozoa-socks-1.5.tar.gz";
 -- }
 description = {
   summary = "Toolkit for network and I/O programming";
@@ -28,8 +28,6 @@ build = {
   modules = {
     ["dromozoa.socks.async_state"] = "dromozoa/socks/async_state.lua";
     ["dromozoa.socks.create_thread"] = "dromozoa/socks/create_thread.lua";
-    ["dromozoa.socks.crypt_apache_sha1"] = "dromozoa/socks/crypt_apache_sha1.lua";
-    ["dromozoa.socks.crypt_sha256"] = "dromozoa/socks/crypt_sha256.lua";
     ["dromozoa.socks.deferred_state"] = "dromozoa/socks/deferred_state.lua";
     ["dromozoa.socks.future"] = "dromozoa/socks/future.lua";
     ["dromozoa.socks.future_service"] = "dromozoa/socks/future_service.lua";
@@ -39,12 +37,8 @@ build = {
     ["dromozoa.socks.io_service"] = "dromozoa/socks/io_service.lua";
     ["dromozoa.socks.latch_state"] = "dromozoa/socks/latch_state.lua";
     ["dromozoa.socks.make_ready_future"] = "dromozoa/socks/make_ready_future.lua";
-    ["dromozoa.socks.multimap"] = "dromozoa/socks/multimap.lua";
-    ["dromozoa.socks.multimap_handle"] = "dromozoa/socks/multimap_handle.lua";
     ["dromozoa.socks.never_return"] = "dromozoa/socks/never_return.lua";
-    ["dromozoa.socks.pack"] = "dromozoa/socks/pack.lua";
     ["dromozoa.socks.promise"] = "dromozoa/socks/promise.lua";
-    ["dromozoa.socks.rb_tree"] = "dromozoa/socks/rb_tree.lua";
     ["dromozoa.socks.reader"] = "dromozoa/socks/reader.lua";
     ["dromozoa.socks.reader_buffer"] = "dromozoa/socks/reader_buffer.lua";
     ["dromozoa.socks.reader_source"] = "dromozoa/socks/reader_source.lua";
